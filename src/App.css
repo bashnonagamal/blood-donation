@@ -42,13 +42,6 @@ body {
   margin: 0px 40px
 }
 
-/* .logo { */
-  /* width: 200px; */
-  /* height: 100px;
-  margin-top: 20px;
-  margin-left: 35px
-} */
-
 .image {
   width: 360px;
   height: 280px
@@ -151,6 +144,24 @@ button:focus {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   outline-width: 0
+}
+.about-image {
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./assets/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding-top: 110px;
+  padding-bottom:110px;
+}
+
+.masthead {
+  height: calc(100vh - 82.93px);
+  min-height: 500px;
+  background-image: url("./assets/landing.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 a {

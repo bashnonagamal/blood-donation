@@ -84,7 +84,7 @@ function Register() {
                 <input type="password" name="password" placeholder="Confirm Password" />
             </div>
             <div className="row px-3 mb-4"></div>
-            <div className="row mb-3 px-3"> <button type="submit" className="btn btn-red text-center">Register</button> </div>
+            <div className="row mb-3 px-3"> <button type="submit" className="btn btn-red text-center">Register</button></div>
             <div className="row mb-4 px-3"> <small className="font-weight-bold">Already have an account? <Link className="text-danger" to="/">Login</Link></small> </div>
         </div>
     );

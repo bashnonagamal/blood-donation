@@ -1,19 +1,25 @@
 import React, { useState } from 'react';
 import './App.css';
-import { BrowserRouter as Router , Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Navbar'
 import Landing from './Landing';
+import Dashboard from './Dashboard';
+import About from './About';
+import Hospitals from './Hospitals';
+import HospitalProfile from './HospitalProfile';
 
 
 function App() {
-  // Declare a new state variable, which we'll call "count"
-  const [count, setCount] = useState(0);
 
   return (
     <Router>
       <Navbar />
       <Switch>
-        <Route path="/"> <Landing/> </Route>
+        <Route exact path="/dashboard"> <Dashboard /> </Route>
+        <Route exact path="/about"> <About /> </Route>
+        <Route exact path="/hospitals"> <Hospitals /> </Route>
+        <Route exact path="/hospitals/:id"> <HospitalProfile /> </Route>
+        <Route path="/"> <Landing /> </Route>
       </Switch>
     </Router>
 
