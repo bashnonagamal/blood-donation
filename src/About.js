@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Footer from './Footer';
 
 
 function About() {
@@ -16,7 +17,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <div class="mt-5">
+            <div class="mt-5 my-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -30,6 +31,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
 
     );

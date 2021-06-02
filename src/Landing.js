@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import logo from './assets/logo.png';
 import vector from './assets/Blood-donation-vector.jpg';
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
 import Register from './Register';
