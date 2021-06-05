@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import './App.css';
 import Hospital from './assets/hospital.jpeg'
-import Footer from './Footer';
 
 function Dashboard() {
 
@@ -100,7 +98,6 @@ function Dashboard() {
                     </div>
                 </div>
             </div>
-            <Footer />
 
             <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
                 aria-hidden="true">
@@ -132,7 +129,6 @@ function Dashboard() {
                                 <label data-error="wrong" data-success="right" for="defaultForm-pass">Description</label>
                                 <input type="password" id="defaultForm-pass" class="form-control validate" />
                             </div>
-
                         </div>
                         <div class="modal-footer d-flex justify-content-center">
                             <a type="submit" className="btn btn-red text-center rounded text-light btn-circle">Request</a>
@@ -140,7 +136,6 @@ function Dashboard() {
                     </div>
                 </div>
             </div>
-
 
         </div>
     );

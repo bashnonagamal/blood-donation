@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
 
@@ -70,7 +70,6 @@ function Hospitals() {
                         <div><Link to="/hospitals/Cardiac Center" className="btn btn-red text-center rounded">View</Link></div>
                     </div>
                 </li>
-
             </ul>
         </div>
     );

@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import Footer from './Footer';
 
 
 function About() {
@@ -21,7 +20,7 @@ function About() {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <h1 class="strong">Who we are and<br />what we do</h1>
+                            <h1>Who we are and<br />what we do</h1>
                             <p class="lead">This is the world's leading portal for<br />easy and quick </p>
                         </div>
                         <div class="col-md-6">
@@ -31,7 +30,6 @@ function About() {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
 
     );

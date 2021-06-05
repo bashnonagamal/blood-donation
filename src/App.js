@@ -7,6 +7,7 @@ import Dashboard from './Dashboard';
 import About from './About';
 import Hospitals from './Hospitals';
 import HospitalProfile from './HospitalProfile';
+import Footer from './Footer';
 
 
 function App() {
@@ -14,13 +15,14 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Switch>
-        <Route exact path="/dashboard"> <Dashboard /> </Route>
-        <Route exact path="/about"> <About /> </Route>
-        <Route exact path="/hospitals"> <Hospitals /> </Route>
-        <Route exact path="/hospitals/:id"> <HospitalProfile /> </Route>
-        <Route path="/"> <Landing /> </Route>
-      </Switch>
+        <Switch>
+          <Route exact path="/dashboard"> <Dashboard /> </Route>
+          <Route exact path="/about"> <About /> </Route>
+          <Route exact path="/hospitals"> <Hospitals /> </Route>
+          <Route exact path="/hospitals/:id"> <HospitalProfile /> </Route>
+          <Route path="/"> <Landing /> </Route>
+        </Switch>
+      <Footer/>
     </Router>
 
   );
